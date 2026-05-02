@@ -1,0 +1,23 @@
+{
+  "name": "ZapSoundboard",
+  "short_name": "ZapSounds",
+  "description": "Free Online Soundboard — 500+ Meme, Discord & Funny Sounds",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f5c518",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ],
+  "shortcuts": [
+    { "name": "Trending Sounds", "url": "/trending", "description": "See today's trending sounds" },
+    { "name": "Upload Sound",    "url": "/upload",   "description": "Upload your own sound" }
+  ],
+  "categories": ["entertainment", "music"],
+  "screenshots": [
+    { "src": "/screenshot-wide.png",   "sizes": "1280x800", "type": "image/png", "form_factor": "wide" },
+    { "src": "/screenshot-narrow.png", "sizes": "390x844",  "type": "image/png", "form_factor": "narrow" }
+  ]
+}
